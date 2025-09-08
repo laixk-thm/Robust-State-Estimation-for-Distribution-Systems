@@ -1,31 +1,31 @@
 # Robust-State-Estimation-for-Distribution-Systems
 
-## 论文图表代码说明
+## Paper Figure Code Description
 
-本仓库包含论文中图表（Figure和Table）的生成代码，每个子文件夹对应论文中的一个特定图表。
+This repository contains the code for generating the figures (Figures and Tables) in the paper. Each subfolder corresponds to a specific figure in the paper.
 
 ### 文件夹结构
 
-- **base/** - 本论文提出的状态估计方法（V-Fusion）的核心代码
-- **FigIII/** - 对应论文中的 Figure III 生成代码
-- **FigIV/** - 对应论文中的 Figure IV 生成代码
-- **TableIII/** - 对应论文中的 Table III 生成代码
-- **TableV/** - 对应论文中的 Table V 生成代码
-- **TableVI/** - 对应论文中的 Table VI 生成代码
-- **TableVII/** - 对应论文中的 Table VII 生成代码
+- **base/** - The core code of the state estimation method (V-Fusion) proposed in this paper
+- **FigIII/** - Generate code for Figure III in the corresponding paper
+- **FigIV/** - Generate code for Figure IV in the corresponding paper
+- **TableIII/** - Generate code for Table III in the corresponding paper
+- **TableV/** - Generate code for Table V in the corresponding paper
+- **TableVI/** - Generate code for Table VI in the corresponding paper
+- **TableVII/** - Generate code for Table VII in the corresponding paper
 
 ### 使用说明
 
-每个子文件夹中都包含一个 `main` 文件（或脚本），用于执行该图表的生成代码：
+Each subfolder contains a `main` file (or script) that executes the code that generates that chart:
 
-1. 进入特定图表对应的文件夹
-2. 运行 `main.m` 文件
-3. 程序将生成相应的图表结果
+1. Go to the folder corresponding to the specific chart
+2. Run `main.m` file
+3. The program will generate the corresponding chart results
 
-### 注意事项
+### Precautions
 
-- 请确保已安装所需的依赖的matpower和cvx
+- Please make sure that the required dependencies matpower and cvx are installed
 
-### 最后更新
+### latest update
 
-所有代码最后更新于：2025年9月4日
+All codes were last updated on: September 4, 2025
