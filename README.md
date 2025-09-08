@@ -4,7 +4,7 @@
 
 This repository contains the code for generating the figures (Figures and Tables) in the paper. Each subfolder corresponds to a specific figure in the paper.
 
-### 文件夹结构
+### Folder structure
 
 - **base/** - The core code of the state estimation method (V-Fusion) proposed in this paper
 - **FigIII/** - Generate code for Figure III in the corresponding paper
@@ -14,7 +14,7 @@ This repository contains the code for generating the figures (Figures and Tables
 - **TableVI/** - Generate code for Table VI in the corresponding paper
 - **TableVII/** - Generate code for Table VII in the corresponding paper
 
-### 使用说明
+### Instructions
 
 Each subfolder contains a `main` file (or script) that executes the code that generates that chart:
 
